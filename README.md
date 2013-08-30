@@ -18,6 +18,12 @@ Copy the following files into a directory named `map` within the `widgets` direc
 
 Or type `dashing install 6386263` from your project directory.
 
+Add the following line of code to your layout.erb file:
+
+    <script src="http://maps.googleapis.com/maps/api/js?key=<%= ENV['GOOGLE_MAPS_KEY'] %>&sensor=false&libraries=visualization"></script>
+
+And finally set the environment variable `GOOGLE_MAPS_KEY` with your Google Maps API key.
+
 ## Using the widget
 
 Include a widget with a `data-view` of `Map`. You can also use `data-color` to color the map and set `data-type` to heat to display a heatmap rather than markers 
