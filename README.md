@@ -16,6 +16,8 @@ Uses the Google Maps API to display latitude and longitude coordinates.
 
 Copy the following files into a directory named `map` within the `widgets` directory of your Dashing app.
 
+Or type `dashing install 6386263` from your project directory.
+
 ## Using the widget
 
 Include a widget with a `data-view` of `Map`. You can also use `data-color` to color the map and set `data-type` to heat to display a heatmap rather than markers 
