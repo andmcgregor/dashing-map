@@ -14,9 +14,7 @@ Uses the Google Maps API to display latitude and longitude coordinates.
 
 ## Installation
 
-Copy the following files into a directory named `map` within the `widgets` directory of your Dashing app.
-
-Or type `dashing install 6386263` from your project directory.
+Type `dashing install 6386263` while in your project directory.
 
 Add the following line of code to your layout.erb file:
 
