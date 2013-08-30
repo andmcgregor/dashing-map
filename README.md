@@ -24,7 +24,7 @@ And finally set the environment variable `GOOGLE_MAPS_KEY` with your Google Maps
 
 ## Using the widget
 
-Include a widget with a `data-view` of `Map`. You can also use `data-color` to color the map and set `data-type` to heat to display a heatmap rather than markers 
+Include a widget with a `data-view` of `Map`. You can also use `data-color` to color the map and set `data-type` to `heat` to display a heatmap rather than pins. 
 
     <li data-row="1" data-col="1" data-sizex="3" data-sizey="2">
       <div data-id="map" data-view="Map" data-title="Map" data-type="heat" data-color="#222222"></div>
